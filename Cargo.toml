@@ -20,6 +20,7 @@ cfg-if = "0.1"
 blake2b-rs = { version = "0.1", optional = true }
 
 [dev-dependencies]
+postgres = "0.19.2"
 proptest = "0.9"
 criterion = "0.2"
 rand = "0.7"
